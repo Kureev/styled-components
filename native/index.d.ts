@@ -61,6 +61,9 @@ export interface StyledInterface extends BaseStyledInterface {
   View: ReactNativeStyledFunction<ReactNative.ViewProperties>;
   ViewPagerAndroid: ReactNativeStyledFunction<ReactNative.ViewPagerAndroidProperties>;
   WebView: ReactNativeStyledFunction<ReactNative.WebViewProperties>;
+  FlatList: ReactNativeStyledFunction<ReactNative.FlatListProperties>;
+  SectionList: ReactNativeStyledFunction<ReactNative.SectionListProperties>;
+  VirtualizedList: ReactNativeStyledFunction<ReactNative.VirtualizedListProperties>;
 }
 
 declare const styled: StyledInterface;
